@@ -6,9 +6,11 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
  
-/* Body Styling */
+/* Body Styling with Background Image*/
 body {
-  background-color: #121212;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('robotooooooooo.png') no-repeat center center fixed;
+  background-size: cover;
   color: #ffffff;
   line-height: 1.6;
 }
