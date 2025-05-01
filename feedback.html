@@ -1,11 +1,23 @@
-<form action="thanks.html">
-   <link rel="stylesheet" href="styles.css">
-  First name:<br>
-  <input type="text" name="first name"><br>
-  Last name:<br>
-  <input type="text" name="last name"><br>
-  <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female" checked> Female<br>
-  <input type="radio" name="gender" value="other" checked> Other
-  <input type="submit" value="Submit">
-</form>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback</title>
+</head>
+<body>
+  <h1>We value your feedback!</h1>
+  <form action="submit.html" method="GET"> <!-- Use POST if processing on a server -->
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" required><br><br>
+ 
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+     <input type="radio" name="gender" value="male" checked> Male<br> <input type="radio" name="gender" value="female"> Female<br> <input type="radio" name="gender" value="other"> Other
+ 
+    <label for="message">Feedback:</label><br>
+    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+ 
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
+ 
