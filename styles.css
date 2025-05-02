@@ -109,6 +109,9 @@ form {
   display: flex;
   flex-direction: column;
   gap: 15px; /* space between fields */
+  max-width:500px;
+  width:90%;
+  margin:0 auto;
 }
  
 input,
