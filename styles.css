@@ -103,6 +103,21 @@ h2 {
   color: #bbbbbb;
   font-size: 0.9rem;
 }
+
+/* === Feedback Form Styles === */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between fields */
+}
+ 
+input,
+textarea,
+button {
+  width: 100%;
+  box-sizing: border-box;
+}
+
  /*Footer*/
 footer {
   background-color: #181818;
