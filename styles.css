@@ -16,7 +16,7 @@ body {
 }
  /* Unique background for homepage */
 body.home-page {
-  background-image: url("media.jpg");
+  background-image: url("ROBOTIC-1.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
