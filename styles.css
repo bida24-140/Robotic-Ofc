@@ -21,6 +21,8 @@ body.home-page {
   background-position: center;
   background-repeat: no-repeat;
   color: white; /* Optional: adjust text color */
+  height: 100vh;
+  overflow: hidden;
 }
 /* Header */
 header {
