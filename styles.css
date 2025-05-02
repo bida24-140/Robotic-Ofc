@@ -26,17 +26,17 @@ body.home-page {
 }
 /* Header */
 header {
-  background-color: #1db954;
+  background-color: #3fa9f5;
   padding: 20px;
   text-align: center;
   color: white;
   font-size: 1.8rem;
-  font-weight: bold;
+  font-weight: bold italic;
 }
  
 /* Navigation */
 nav {
-  background-color: #181818;
+  background-color: #181818cc;
   display: flex;
   justify-content: center;
   padding: 10px 0;
@@ -44,14 +44,14 @@ nav {
  
 nav a {
   color: #ffffff;
-  text-decoration: italic;
+  text-decoration: none;
   margin: 0 15px;
   font-weight: 500;
   transition: color 0.3s ease;
 }
  
 nav a:hover {
-  color: #1db954;
+  color: #3fa9f5;
 }
  
 /* Main Content */
@@ -64,7 +64,7 @@ main {
 /* Section Titles */
 h2 {
   margin-bottom: 20px;
-  border-bottom: 2px solid #1db954;
+  border-bottom: 2px solid #3fa9f5;
   padding-bottom: 10px;
 }
  
